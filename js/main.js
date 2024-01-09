@@ -235,7 +235,7 @@ function randomBackgrounds ()
     backgroundInterval=setInterval(() =>
   {
     let random = Math.floor(Math.random() * 8);
-    landingSection.style.background = `url(/imgs/Landing_0${random}.jpg)`;
+    landingSection.style.background = `url(../imgs/Landing_0${random}.jpg)`;
   }, 10000);
     }
 }
